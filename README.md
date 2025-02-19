@@ -1,5 +1,9 @@
 <div align="center">
 
+<p align="center">
+<img src="demo.gif" alt="Application Demo" width="800"/>
+</p>
+
 # Image Steganography GUI Application
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
@@ -14,10 +18,6 @@
 
 <p align="center">
 A user-friendly Python application for hiding secret messages within images using steganography techniques with optional password protection.
-</p>
-
-<p align="center">
-<img src="demo.gif" alt="Application Demo" width="800"/>
 </p>
 
 </div>
