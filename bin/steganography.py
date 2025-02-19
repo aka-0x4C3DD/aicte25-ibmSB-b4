@@ -1,3 +1,36 @@
+import subprocess
+import sys
+import importlib.util
+
+def check_and_install_dependencies():
+    required_packages = {
+        'opencv-python': 'cv2',
+        'numpy': 'numpy',
+        'tkinter': 'tkinter'
+    }
+    
+    missing_packages = []
+    
+    for package, import_name in required_packages.items():
+        if package != 'tkinter':  # tkinter comes with Python
+            if importlib.util.find_spec(import_name) is None:
+                missing_packages.append(package)
+    
+    if missing_packages:
+        print("Installing missing dependencies...")
+        for package in missing_packages:
+            try:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+                print(f"Successfully installed {package}")
+            except subprocess.CalledProcessError:
+                print(f"Failed to install {package}")
+                sys.exit(1)
+        print("All dependencies installed successfully!")
+
+# Check dependencies before importing
+check_and_install_dependencies()
+
+# Original imports
 import cv2
 import numpy as np
 import tkinter as tk
