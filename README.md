@@ -17,7 +17,7 @@ A user-friendly Python application for hiding secret messages within images usin
 </p>
 
 <p align="center">
-<img src="demo.gif" alt="Application Demo" width="600"/>
+<img src="demo.gif" alt="Application Demo" width="800"/>
 </p>
 
 </div>
@@ -66,7 +66,7 @@ python bin/steganography.py
    - Enter the password if the message was encrypted
    - Click "Decode" to reveal the hidden message
 
-## 🎥 Demonstration
+<!-- ## 🎥 Demonstration
 
 <p align="center">
 <img src="demo.gif" alt="Steganography Demo" width="800"/>
@@ -78,6 +78,8 @@ The above demonstration shows:
 - Password protection
 - Encoding process
 - Decoding the hidden message
+
+-->
 
 ## 🔧 Technical Implementation
 
