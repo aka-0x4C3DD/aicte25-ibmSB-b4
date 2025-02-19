@@ -8,9 +8,9 @@
 [![OpenCV](https://img.shields.io/badge/opencv-4.x-orange.svg)](https://opencv.org/)
 <!-- [![Dependencies](https://img.shields.io/badge/dependencies-auto_managed-brightgreen.svg)]() -->
 [![Platform](https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20macos-lightgrey.svg)]()
-[![Code Size](https://img.shields.io/github/languages/code-size/yourusername/aicte25-ibmSB-b4.svg)]()
-[![Last Commit](https://img.shields.io/github/last-commit/yourusername/aicte25-ibmSB-b4.svg)]()
-[![Issues](https://img.shields.io/github/issues/yourusername/aicte25-ibmSB-b4.svg)]()
+[![Code Size](https://img.shields.io/github/languages/code-size/aka-0x4C3DD/aicte25-ibmSB-b4.svg)]()
+[![Last Commit](https://img.shields.io/github/last-commit/aka-0x4C3DD/aicte25-ibmSB-b4.svg)]()
+[![Issues](https://img.shields.io/github/issues/aka-0x4C3DD/aicte25-ibmSB-b4.svg)]()
 
 <p align="center">
 A user-friendly Python application for hiding secret messages within images using steganography techniques with optional password protection.
