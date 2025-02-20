@@ -114,6 +114,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- AICTE for the project opportunity
+- Edunet Foundation & AICTE for the project opportunity
 - IBM Skillbuild Program
 - OpenCV and NumPy communities
