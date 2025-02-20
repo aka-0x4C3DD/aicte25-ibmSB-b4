@@ -43,7 +43,7 @@ The application automatically checks and installs required dependencies:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/aicte25-ibmSB-b4.git
+git clone https://github.com/aka-0x4C3DD/aicte25-ibmSB-b4.git
 cd aicte25-ibmSB-b4
 ```
 
